@@ -1,3 +1,4 @@
+### Python template
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -23,7 +24,6 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-MANIFEST
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -45,16 +45,14 @@ nosetests.xml
 coverage.xml
 *.cover
 .hypothesis/
-.pytest_cache/
 
 # Translations
 *.mo
 *.pot
 
 # Django stuff:
-*.log
+# *.log
 local_settings.py
-db.sqlite3
 
 # Flask stuff:
 instance/
@@ -87,8 +85,6 @@ celerybeat-schedule
 env/
 venv/
 ENV/
-env.bak/
-venv.bak/
 
 # Spyder project settings
 .spyderproject
@@ -102,3 +98,36 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# Pycharm Settings
+.idea
+
+# VS Code Settings
+.vscode
+
+# uwsgi envs
+conf
+run
+
+# models, data files
+.model
+.npy
+.doc2vec
+.xlsx
+media/
+model_doc.doc2vec
+
+# extra
+break.txt
+
+# Migration Folder and migration files
+migrations/
+
+# Log folder log files
+log
+
+#sqlite3 file
+db.sqlite3
+
+# Environment Folder files
+migrations/
